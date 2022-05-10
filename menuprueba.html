@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <style>
+        .mainmenubtn {
+            background-color: skyblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .mainmenubtn:hover {
+            background-color: blue;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-child {
+            display: none;
+            background-color: skyblue;
+            min-width: 200px;
+        }
+        
+        .dropdown-child a {
+            color: blue;
+            padding: 20px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown:hover .dropdown-child {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="mainmenubtn">Menu principal</button>
+        <div class="dropdown-child">
+            <a href="">Inicio</a>
+            <a href="">Oferta</a>
+            <a href="">Productos</a>
+            <a href="">Lo Mas Vendido</a>
+            <a href="">Contacto</a>
+        </div>
+    </div>
+</body>
+<a href="menuprueba.html">
+    <img src="champion.png" width="300" height="150" alt="texto alternativo de la imagen" />
+</a>
+
+</html>
